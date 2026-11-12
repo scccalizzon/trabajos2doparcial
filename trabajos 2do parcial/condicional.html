@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicional IF y ESLE</title>
+</head>
+<body>
+    <SCript>
+        const continuar= confirm ("¿Desea regsitrar tus datos?");
+        if (continuar){
+            let nombre = prompt ("Escribe tu nombre");
+            let especialidad = prompt ("Escribe tu especialidad");
+            let Edad = Number (prompt ("Escribe tu Edad"));
+            let domicilio = prompt ("Escribe tu domicilio"); 
+            let correo = prompt ("Escribe tu correo"); 
+           document.write ("Tu nombre es:" + nombre + "<br>"); 
+           document.write ("Tu especialidad es:" + especialidad + "<br>" ); 
+           document.write ("Tu edad es:" + Edad + "<br>" );
+           document.write ("Tu domicilio es:" + domicilio + "<br>" );
+           document.write ("Tu correo es:" + correo + "<br>" );
+        }
+        else{
+            alert ("Tengo flojera");
+        }
+    </SCript>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Promedio escolar</h1>
+    <script>
+        let nombre = prompt ("Ingresa tu nombre:");
+        let asignatura = prompt ("Ingresa el nombre de la asignatura:");
+        let promedio = Number (prompt("Ingresa tu promedio:"));
+
+        document.write ("Nombre:"+ nombre + "<br>");
+        document.write ("Asignatura:"+ asignatura + "<br>");
+        document.write ("Promedio:"+ promedio + "<br>");
+
+        if (promedio >= 6) {
+            document.write ("Aprobaste");
+        }
+        else{
+            document.write ("Reprobaste");
+        }
+    </script>
+</body>
+</html>
